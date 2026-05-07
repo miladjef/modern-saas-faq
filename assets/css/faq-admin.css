@@ -1,0 +1,69 @@
+/* ─── استایل متاباکس سوالات ─── */
+.msaas-faq-item-row {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    transition: all 0.3s ease;
+}
+
+.msaas-faq-item-row:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.msaas-faq-item-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 16px;
+    background: #f9f9f9;
+    border-bottom: 1px solid #eee;
+    border-radius: 8px 8px 0 0;
+}
+
+.msaas-faq-drag-handle {
+    cursor: move;
+    color: #999;
+    font-size: 18px;
+}
+
+.msaas-faq-item-number {
+    font-weight: 600;
+    color: #ff7a00;
+    min-width: 30px;
+}
+
+.msaas-faq-question-input {
+    flex: 1;
+    font-size: 14px;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.msaas-faq-open-label {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 13px;
+    white-space: nowrap;
+}
+
+.msaas-faq-item-body {
+    padding: 16px;
+    display: none;
+}
+
+.msaas-faq-item-body.active {
+    display: block;
+}
+
+.msaas-admin-field {
+    margin-bottom: 12px;
+}
+
+.msaas-admin-field label {
+    display: block;
+    margin-bottom: 4px;
+    font-weight: 500;
+}
